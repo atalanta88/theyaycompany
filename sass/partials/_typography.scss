@@ -1,0 +1,63 @@
+//font-family: 'Playfair Display', serif;
+// font-family: 'Lato', sans-serif;
+
+body {
+    font-family: $primary-font;
+}
+p, label {
+    color: $black;
+    font-family: $primary-font;
+    font-weight: bold;
+}
+h1, h2, h3, .navbar-brand {
+    color: $primary;
+    font-family: $secondary-font;
+}
+
+.navbar-brand {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.display-4 {
+    margin-left: 0%;
+}
+
+.page-h1 {
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+
+footer i {
+    font-size: 1em;
+}
+
+
+.nav-link.tab {
+    color: $primary;
+    font-family: $primary-font;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: $black;
+    font-family: $primary-font;
+    font-weight: bold;
+}
+
+
+
+li.nav-item.active {
+    border-radius: 3px;
+}
+
+span {
+    color: $black;
+    font-family: $primary-font;
+    font-weight: bold;
+}
+
+.card-body.text.contact {
+    padding: 0.5rem !important;
+
+}

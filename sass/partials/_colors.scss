@@ -1,0 +1,142 @@
+nav {
+  background-color: $grey-light;
+}
+
+li.nav-item.active {
+  background-color: white !important;
+  border-radius: 10px;
+}
+
+body {
+  background-color: $grey-light;
+}
+
+main {
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%) !important;
+}
+
+.btn-outline-success {
+  color: $grey-light !important;
+  border-color: $primary;
+}
+
+.carousel-indicators li {
+  background: white !important;
+  opacity: none;
+}
+
+.carousel-indicators .active {
+  background-color: $primary;
+}
+
+.jumbotron {
+  background-color: #ffffff00 !important;
+}
+
+.btn-primary {
+  color: #fff;
+  border-color: $primary !important;
+  background-color: $primary !important;
+  border-right: 15px solid $grey-dark !important;
+
+}
+
+.btn {
+  background-color: $primary !important;
+}
+
+.btn-outline-success {
+  background-color: $primary;
+}
+
+footer {
+  background-color: white;
+}
+
+
+.page-link {
+  border: 1px solid $primary;
+  color: $primary;
+
+}
+
+.page-item.active .page-link {
+  color: #fff !important;
+  background-color: $primary;
+  border-color: $primary;
+}
+
+.form-control.is-valid,
+.was-validated .form-control:valid {
+  border-color: #28a74600 !important; 
+  background-image: none !important; 
+
+}
+.form-control.is-invalid, .was-validated .form-control:invalid {
+  border-color: #28a74600 !important; 
+  background-image: none !important; 
+}
+
+.custom-control-input.is-valid~.custom-control-label, .was-validated .custom-control-input:valid~.custom-control-label {
+  color: #000000 !important;
+}
+
+.custom-control-input.is-valid~.custom-control-label::before, .was-validated .custom-control-input:valid~.custom-control-label::before {
+  border-color: $primary;
+  background-color: $primary;
+
+}
+
+
+.pagination-background {
+  background-color: rgba(255, 255, 255, 0);
+  margin-left: 1.1%;
+}
+
+.nav-tabs {
+border-bottom: 1px solid #dee2e600 !important;
+}
+
+.card-header {
+  background-color: rgb(255, 255, 255) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.card {
+  border: 0px solid rgba(0,0,0,.125) !important;
+  border-bottom: 1px solid rgba(0,0,0,.125) !important;
+}
+
+.card.card-news {
+  border: 0px solid rgba(0,0,0,.125) !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0) !important;
+}
+
+.btn-primary {
+  background-color: #e92569 !important;
+
+}
+
+
+.card-header {
+  border-bottom: 1px solid $primary;
+}
+
+.btn-link {
+  color: $primary;
+}
+
+.col-sm {
+  text-align: center !important;
+}
+
+.nav-tabs .nav-link {
+  border: 0px solid transparent !important;
+
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #495057 !important;
+
+}
